@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* All page */
+
+.allPage {
+    background: linear-gradient(#0066ff, #cc33ff);
+    height: 100vh;
+}
+
+/*playground*/
+.playground  {
+    width: 80%;
+    height: 80%;
+    background: #0099ff;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    
+}
+
+/*Total score*/
+.totalScore {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.totalScore p:nth-of-type(2){
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.totalScore0 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+
+}
+.totalScore1 {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+
+}
+
+/* Current Score */
+.currentScore {
+    width: 150px;
+    height: 150px;
+    background: #66ffff;
+    
+}
+
+.currentScore p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.currentScore p:nth-child(2){
+    font-size: 40px;
+}
+
+.currentScore0{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    
+}
+.currentScore1{
+    position: absolute;
+    top: 30%;
+    right: 14%;
+}
+
+/* buttons */
+
+.middleBtn {
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.btn {
+    border: 2px solid #66ffff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.btn:hover {
+   border: 2px solid #fff;
+   
+}
+
+.dice {
+    position: absolute;
+    top: 30%;
+    left: 46%;
+  
+}
+
+/* Active player */
+
+.active {
+    
+    border: 2px solid #d24dff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #d24dff;
+}
+
